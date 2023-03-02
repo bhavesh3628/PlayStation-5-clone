@@ -1,0 +1,65 @@
+body,
+html {
+      height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 6), rgba(13, 13, 13, 0.178)), url("forbidden.jpg");
+
+      /* Set a specific height */
+      height: 100%;
+
+      /* Position and center the image to scale nicely on all screens */
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+      padding-left: 70px;
+      text-align: left;
+      position: absolute;
+      top: 58%;
+      left: 23%;
+      font-family: Aboreto;
+      transform: translate(-50%, -50%);
+      color: white;
+}
+
+input[type='radio'] {
+      width: 25px;
+      height: 25px;
+      /* padding-left: -5px; */
+      margin-top: 1.24rem;
+      margin-left: -2.25rem;
+}
+
+.bgimage {
+      background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(hor2.jpg);
+      background-size: cover;
+      display: flex;
+      background-repeat: no-repeat;
+      height: 111%;
+      color: white;
+}
+
+iframe:hover {
+      width: 524;
+      height: 321;
+      box-shadow: 0 9px 39px 0 rgba(0, 0, 0, 2.9);
+      transition: 0.3s;
+}
+
+.screen {
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.9);
+}
+
+.screen:hover {
+      box-shadow: 0 7px 29px 0 rgba(0, 0, 0, 2.9);
+      border: 1.5px solid #0000007e;
+      transition: 0.38s;
+}
